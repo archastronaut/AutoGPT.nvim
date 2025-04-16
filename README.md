@@ -1,5 +1,6 @@
 We are building a Neovim plugin that wraps a self-hosted AutoGPT backend, mediated by a Go-based service. It's not just a chat tool - it's a programmable AI interface that can reason, edit, and refactor code seamlessly and interactively.
 On a high level architecture overview it looks like this:
+```text:
             ┌────────────────────────────┐
             │        Neovim User         │
             └────────────┬───────────────┘
@@ -32,6 +33,8 @@ On a high level architecture overview it looks like this:
             │ - LLM request logic        │
             │ - Tool execution           │
             └────────────────────────────┘
+```
+
 #### Component Breakdown (Detailed)
 
 1. Neovim Frontend (Lua)
