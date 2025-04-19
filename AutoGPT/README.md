@@ -122,4 +122,3 @@ On a high level architecture overview it looks like this:
 
 #### Steps to reproduce:
 ... TBC
-
